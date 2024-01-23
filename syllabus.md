@@ -7,7 +7,7 @@
 | Control Flow            | 12            | Done   |          |
 | Events                  | 11            | Done   |          |
 | Buffers & Streams       | 11            |        |          |
-| Error Handling          | 8             |        |          |
+| Error Handling          | 8             | Done   |          |
 | File System             | 8             |        |          |
 | Child Process           | 8             | Done   |          |
 | JavaScript Concepts     | 7             | Done   |          |
