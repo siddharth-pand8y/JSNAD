@@ -8,7 +8,7 @@
 | Events                  | 11            | Done   |          |
 | Buffers & Streams       | 11            |        |          |
 | Error Handling          | 8             | Done   |          |
-| File System             | 8             |        |          |
+| File System             | 8             | Done   |          |
 | Child Process           | 8             | Done   |          |
 | JavaScript Concepts     | 7             | Done   |          |
 | Module System           | 7             | Done   |          |
