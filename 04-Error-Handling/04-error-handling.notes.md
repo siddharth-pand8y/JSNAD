@@ -21,4 +21,3 @@ Six Native Error Constructor
 5. TypeError
 6. URIError
 
-

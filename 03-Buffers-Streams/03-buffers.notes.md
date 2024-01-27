@@ -33,7 +33,7 @@
 
   Ref: https://nodejs.org/dist/latest-v20.x/docs/api/string_decoder.html
 
-- Buffer has a predefined `.toString()` methods & alternatively Buffer can be represented in JS Object via 
+- Buffer has a predefined `.toString()` methods & alternatively Buffer can be represented in JS Object via `.toJSON`
 
   ``` 
   const buf = Buffer.from('hello');

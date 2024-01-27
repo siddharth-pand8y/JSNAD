@@ -27,19 +27,22 @@
 - `fs.readFile` - read contents of a file (callback/promise)
 - `fs.writeFile` - write buffer to a file (callback/promise)
 
+### Opening Files
+- `fs.openSync(filePath[, flags[, mode]])`
+
 ### File System Flags
 
-1. r
+1. r - read
 2. rs
-3. r+
+3. r+ - read and write
 4. rs+ 
 5. a
 6. ax
-7. a+
+7. a+ - 
 8. ax+
-9. w
+9. w -write file
 10. w+
-11. wx
+11. wx - write and fail if the file exists
 12. wx+
 
 #### Reading Directories
@@ -94,6 +97,9 @@ Ref: https://nodejs.org/dist/latest-v20.x/docs/api/fs.html#fs_class_fs_stats
     4. Returns <fs.FSWatcher>
 
     > On Windows, no events will be emitted if the watched directory is moved or renamed An `EPERM` error is reported when the watched directory is deleted
+
+
+
 
     
 
