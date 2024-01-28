@@ -111,4 +111,31 @@ writable.end('nothign more to write')
 
 ## Transform Stream
 
-- The transform constructor inherits from the Duplex Constru
+- The transform constructor inherits from the Duplex Constructor
+
+___
+
+### Determining the End-of-Stream
+
+End of stream can be communicated by the following events
+
+- close
+- error
+- finish
+- end
+
+Instead of adding an event listener for these events we can utilize the `finished` function from stream
+
+Syntax: ` finsihed(stream[,options])`
+
+options {Object}
+
+	- error
+	- readable
+	- writable
+	- signal
+
+```javascript
+finished(stream, (err) => {})
+```
+
