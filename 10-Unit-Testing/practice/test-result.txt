@@ -1,0 +1,26 @@
+
+> practice@1.0.0 test H:\Repositories\JSNAD\JSNAD\10-Unit-Testing\practice
+> node --test
+
+TAP version 13
+# Subtest: test cases for sum module
+    # Subtest: should return the sum of argument passed
+    ok 1 - should return the sum of argument passed
+      ---
+      duration_ms: 0.3452
+      ...
+    1..1
+ok 1 - test cases for sum module
+  ---
+  duration_ms: 2.1658
+  type: 'suite'
+  ...
+1..1
+# tests 1
+# suites 1
+# pass 1
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 83.9809

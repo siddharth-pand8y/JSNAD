@@ -4,7 +4,7 @@
 
 - `Buffer.slice` method will return a buffer instance that references the binary data in the original buffer on which slice was called on 
 
-- `Buffer.alloc` - Allocate a buffer a certain amount of bytes
+- `Buffer.alloc` - Allocate a buffer a certain amount of bytes (by deault is zero filled buffer)
 
 - `Buffer.allocUnsafe` - return a buffer of garbage bytes ( Security risk but performance advantages )
 
@@ -35,11 +35,19 @@
 
 - Buffer has a predefined `.toString()` methods & alternatively Buffer can be represented in JS Object via `.toJSON`
 
-  ``` 
+  ``` javascript
   const buf = Buffer.from('hello');
   const stringify = JSON.stringify(buf);
   const parsed = JSON.parse(stringify);
   console.log(parsed);
   ```
 
+  **Buffer.alloc(size[,fill[,encoding]])**
+  
+  ```javascript
+  const {Buffer} = require('node:buffer');
+  const buf = Buffer.alloc(5, 5, 'utf-8');
+  console.log(buf);//<Buffer 05 05 05 05 05>
+  ```
+  
   

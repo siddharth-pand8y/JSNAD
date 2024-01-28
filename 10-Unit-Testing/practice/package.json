@@ -1,0 +1,12 @@
+{
+  "name": "practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --experimental-test-coverage --test-reporter=lcov --test-reporter-destination=lcov.info --test sum.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

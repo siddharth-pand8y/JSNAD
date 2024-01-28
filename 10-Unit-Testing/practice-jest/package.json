@@ -1,0 +1,16 @@
+{
+  "name": "practice-jest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sum.js",
+  "scripts": {
+    "test": "jest --collectCoverage sum.spec.js"
+  },
+  "jest": {
+    "collectCoverage": true,
+    "coverageDirectory": "./test-coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
