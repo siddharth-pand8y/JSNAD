@@ -18,7 +18,7 @@
   3. dir - string path of the file
   4. ext - extension of the file
   5. name - file name without extension
-- `path.basename` - fill file name along with extension
+- `path.basename` - full file name along with extension
 - `path.dirname` - directory of the path
 - `path.extname` -  extension of the file
 - `fs.readFileSync` - read contents of a file synchronously
