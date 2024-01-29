@@ -136,6 +136,7 @@ options {Object}
 	- signal
 
 ```javascript
-finished(stream, (err) => {})
+finished(stream, (err) => {});
+await finished(rs);
 ```
-
+Ref: https://nodejs.org/docs/latest-v20.x/api/stream.html#streamfinishedstream-options
