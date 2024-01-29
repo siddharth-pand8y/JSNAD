@@ -23,7 +23,7 @@ The  core `assert` module has the following properties
 | `assert.notDeepStrictEqual(val1, val2)`          |             |
 | `assert.throws(()=> fn, <Error>)`                |             |
 | `assert.doesNotThrow(function)`                  |             |
-| `assert.reject(promise | async function)`        |             |
+| `assert.reject(promise \| async function)`       |             |
 | `assert.doesNotReject(promise | async function)` |             |
 | `assert.ifError(err)`                            |             |
 | `assert.match(string, regex`)                    |             |
