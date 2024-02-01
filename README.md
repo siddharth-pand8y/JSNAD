@@ -26,6 +26,8 @@ A dedicated environment will be provisioned for your assessment, which will incl
 
 - Node.js Version 20 LTS*
 
+- Installation of plugins on VSCode is not available in the VM
+
   > Note: Copy/Paste via keyboard does not always work and is a limitation of accessing VNC via browser. You can, however, copy/paste using the mouse (right-click). 
   
   ![](./exam-ui.webp)
